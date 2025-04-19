@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff2f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #ff4f81;  /* Vibrant pink */
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+}
+
+/* Task Controls Section */
+#taskControls {
+  background-color: #fdf0c2;  /* Soft yellow */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#taskControls h2 {
+  font-size: 24px;
+  color: #ff4f81;  /* Vibrant pink */
+}
+
+#taskControls div {
+  margin-bottom: 15px;
+}
+
+#taskControls label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#taskControls input, #taskControls textarea, #taskControls select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ff4f81;  /* Pink border */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#taskControls button {
+  background-color: #ff4f81;  /* Vibrant pink */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#taskControls button:hover {
+  background-color: #ff1e4c;  /* Darker pink on hover */
+}
+
+/* Tasks Overview Section */
+#tasksOverview {
+  margin-top: 20px;
+}
+
+#tasksOverview h2 {
+  font-size: 24px;
+  color: #ff4f81;  /* Vibrant pink */
+  margin-bottom: 10px;
+}
+
+#todayTasks, #revisionTasks {
+  margin-top: 20px;
+}
+
+.task-item {
+  background-color: #fdf0c2;  /* Soft yellow */
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-item:hover {
+  background-color: #ffb6c1;  /* Light pink */
+}
+
+/* Footer */
+footer {
+  background-color: #ff4f81;  /* Vibrant pink */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+#settingsButtonContainer {
+  margin: 10px 0;
+}
+
+#settingsButtonContainer button {
+  background-color: #fdf0c2;  /* Soft yellow */
+  color: #ff4f81;  /* Pink text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#settingsButtonContainer button:hover {
+  background-color: #ffb6c1;  /* Light pink on hover */
+}
