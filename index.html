@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager 5 </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Your Task Manager</h1>
+    <p>Keep track of your tasks and boost your productivity!</p>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <section id="taskControls">
+      <h2>Add a New Task</h2>
+      <div>
+        <label for="taskTitle">Task Title:</label>
+        <input type="text" id="taskTitle" placeholder="Task Title">
+      </div>
+      <div>
+        <label for="taskDetail">Task Details:</label>
+        <textarea id="taskDetail" placeholder="Details about the task..."></textarea>
+      </div>
+      <div>
+        <label for="taskDate">Due Date:</label>
+        <input type="date" id="taskDate">
+      </div>
+      <div>
+        <label for="srtRegime">SRT Regime:</label>
+        <select id="srtRegime">
+          <option value="Standard">Standard</option>
+          <option value="Aggressive">Aggressive</option>
+          <option value="Relaxed">Relaxed</option>
+        </select>
+      </div>
+      <button id="addTaskBtn">Add Task</button>
+    </section>
+
+    <section id="tasksOverview">
+      <h2>Your Tasks</h2>
+      <div id="todayTasks"></div>
+      <div id="revisionTasks"></div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div id="settingsButtonContainer">
+      <button onclick="window.location.href = 'settings.html'">Settings</button>
+      <button onclick="downloadTasks()">Download Tasks</button>
+    </div>
+    <p>&copy; 2025 Task Manager</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
